@@ -1,0 +1,217 @@
+/*---------------------------------------/*
+  # SETTINGS
+/*---------------------------------------*/
+
+$color-darkbrown: #372222;
+$color-lightbrown: #c47a7a;
+$spacing-default: 2rem;
+
+/*---------------------------------------/*
+  # GENERIC
+/*---------------------------------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*---------------------------------------/*
+  # ELEMENTS
+/*---------------------------------------*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: $spacing-default;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+nav {
+  background-color: $color-darkbrown;
+  padding: 1rem 0;
+}
+
+footer {
+  color: white;
+  background-color: $color-darkbrown;
+  padding: 1rem 0;
+}
+
+/*---------------------------------------/*
+  # OBJECTS
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+  # COMPONENTS
+/*---------------------------------------*/
+
+@media only screen and (max-width: 768px){
+  .c-logo {
+    text-align: center;
+    display: block;
+  }
+}
+
+.c-nav {
+  list-style-type: none;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: .3rem;
+
+  @media only screen and (max-width: 768px){
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  li {
+    margin-left: $spacing-default;
+
+    @media only screen and (max-width: 768px){
+      margin: 1rem 1rem 0;
+    }
+  }
+
+  &__link {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover {
+      color: $color-lightbrown;
+      text-decoration: underline;
+      transition:1s;
+    }
+  }
+}
+
+.c-header {
+  background-image: url('../images/headerbg.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem 0;
+
+  &__text {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  &__button {
+    background-color: $color-lightbrown;
+    border: 2px solid $color-lightbrown;
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem $spacing-default;
+    margin-top: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    transition: 1s;
+
+    &:hover {
+      border: 2px solid $color-lightbrown;
+      color: white;
+      background-color: transparent;
+      font-weight: 700;
+      transition: 1s;
+      
+    }
+  }
+}
+
+.c-home {
+  margin: 6rem 0;
+
+  &__imgcontainer {
+    position: relative;
+    margin-bottom: $spacing-default;
+    display: inline-block;
+    text-align: center;
+    background-color: #ebebeb;
+    border-radius: 2rem;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media only screen and (max-width: 768px){
+      margin-top: 2rem;
+    }
+  }
+
+  &__text {
+    margin-bottom: $spacing-default;
+  }
+
+  &__button {
+    background-color: $color-lightbrown;
+    border: 2px solid $color-lightbrown;
+    color: white;
+    width:100%;
+    border-radius: 0rem 0rem 2rem 2rem;
+    padding: 1rem $spacing-default;
+    margin-top: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    transition: 1s;
+
+    &:hover {
+      border: 2px solid $color-darkbrown;
+      color: $color-darkbrown;
+      background-color: transparent;
+      font-weight: 700;
+      transition: 1s;
+      
+    }
+  }
+
+  &__topic {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-right: 1rem;
+  }
+
+  h3 {
+    display: inline;
+  }
+}
+
+
+
+.c-copyright {
+  color: $color-lightbrown;
+  font-size: 0.8rem;
+
+} 
+
+/*---------------------------------------/*
+  # UTILITIES
+/*---------------------------------------*/
+
+
+
