@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Beangrinder</title>
-        <link rel="icon" href="images/BG_icon.svg" type="svg">
+        <link rel="icon" href="images/BG_icon.svg" type="image/svg+xml">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
@@ -21,9 +21,8 @@
                     <div class="col-md-9">
                         <ul class="c-nav">
                             <li><a class="c-nav__link" href="#">Home</a></li>
-                            <li><a class="c-nav__link" href="#">Products</a></li>
-                            <li><a class="c-nav__link" href="#">About us</a></li>
-                            <li><a class="c-nav__link" href="#">Contact</a></li>
+                            <li><a class="c-nav__link" href="products.html">Products</a></li>
+                            <li><a class="c-nav__link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -34,43 +33,54 @@
                 <div class="c-header__text">
                     <h1>Start your day succesfully!</h1>
                     <p>Better your morning with your own cup of coffee!</p>
-                    <a href="#" class="btn c-header__button">Get to know us!</a>
+                    <a href="#info" class="btn c-header__button">Get to know us!</a>
                 </div>
             </div>
         </header>
         <main>
-            <section class="c-home" id="examples">
-                
+            <section class="c-home" id="info">
                 <div class="container">
                     <div class="row align-items-center">
-                        <h2>Our categories! </h2>
-                        <div class="col-md-4 order-0 order-md-0">
-                            <div class="c-home__imgcontainer">
-                                <img src="images/nespresso.png" class="c-home__image" width="569" height="569" alt="nespresso" />
-                            
-                            <a href="#" class="btn c-home__button">view our nespresso machines!</a> 
-                            </div>
+                        <div class="col-md-8">
+                            <h2>Who are we</h2>
+                            <p class="c-home__text">
+                                We are beangrinder. A company founded with coffee in mind. 
+                                We are all coffee fanatics and want to make sure other people can get there hands on there own personal coffee maker.
+
+                            </p>
                         </div>
-                        <div class="col-md-4 order-1 order-md-1">
-                            <div class="c-home__imgcontainer">
-                                <img src="images/coffeefiltermachine.png" class="c-home__image" width="569" height="569" alt="filtermachine" />
-                                <a href="#" class="btn c-home__button">view our filter machines!</a>
-                            </div>
+                        <div class="col-md-8">
+                            <h2>Why are we here?</h2>
+                            <p class="c-home__text">
+                                For more than 1 billion people on this planet, coffee is a must to start the day.
+                                <br> That's why we exist! We are here to provide the masses with a good machine so you can brew your
+                                 own cup of coffee! We made sure we got the perfect machine for you! Nespresso, Senseo or even filter machines, we got it all.
+
+                            </p>
                         </div>
-                        <div class="col-md-4 order-2 order-md-2">
+                    </div>
+                </div>
+            </section>
+            <section class="c-home">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 order-1 order-md-0">
                             <div class="c-home__imgcontainer">
-                                <img src="images/senseo.png" class="c-home__image" width="569" height="569" alt="senseo" />
-                                <a href="#" class="btn c-home__button">view our senseo machines!</a>
+                                <img src="images/coffeesmile.png" class="c-home__image" width="569" height="569" alt="student" />
                                 
                             </div>
                         </div>
-                        
+                        <div class="col-md-6 col-lg-5 offset-lg-1">
+                            <h2>Goal</h2>
+                            <p class="c-home__text">At the end of the day, we want to make the world better.
+                                That's why we aim to donate to coffee plantations and nature reservations for every purchase made on this platform!
+                                Contribute now to help us!
+                            </p>
+                            <a href="products.html" class="btn c-home__cta">View products!</a>
+                            
+                        </div>
                     </div>
-
-                    
                 </div>
-                
-                
             </section>
             <footer>
                 <div class="container">

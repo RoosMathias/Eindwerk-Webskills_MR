@@ -156,7 +156,7 @@ footer {
   margin-bottom: 2rem;
   display: inline-block;
   text-align: center;
-  background-color: #ebebeb;
+  background-color: #FFFDD0;
   border-radius: 2rem;
 }
 
@@ -198,6 +198,29 @@ footer {
   transition: 1s;
 }
 
+.c-home__cta {
+  background-color: #c47a7a;
+  border: 2px solid #c47a7a;
+  color: white;
+  width: 100%;
+  border-radius: 0rem 2rem 2rem 2rem;
+  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.c-home__cta:hover {
+  border: 2px solid #372222;
+  color: #372222;
+  background-color: transparent;
+  font-weight: 700;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .c-home__topic {
   margin-bottom: 1rem;
   display: -webkit-box;
@@ -214,6 +237,186 @@ footer {
 
 .c-home h3 {
   display: inline;
+}
+
+.c-product {
+  margin: 6rem 0;
+}
+
+.c-product__imgcontainer {
+  position: relative;
+  margin-bottom: 2rem;
+  display: inline-block;
+  text-align: center;
+  background-color: #FFFDD0;
+  border-radius: 2rem;
+}
+
+.c-product__imgcontainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .c-product__imgcontainer {
+    margin-top: 2rem;
+  }
+}
+
+.c-product__text {
+  margin-bottom: 2rem;
+}
+
+.c-product__button {
+  background-color: #c47a7a;
+  border: 2px solid #c47a7a;
+  color: white;
+  width: 100%;
+  border-radius: 0rem 0rem 2rem 2rem;
+  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.c-product__button:hover {
+  border: 2px solid #372222;
+  color: #372222;
+  background-color: transparent;
+  font-weight: 700;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.c-product__topic {
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-product__icon {
+  margin-right: 1rem;
+}
+
+.c-product h3 {
+  display: inline;
+}
+
+.c-contact {
+  margin: 6rem 0;
+}
+
+.c-contact__imgcontainer {
+  position: relative;
+  margin-bottom: 2rem;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.c-contact__imgcontainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .c-contact__imgcontainer {
+    margin-top: 2rem;
+  }
+}
+
+.c-contact__submit {
+  background-color: #c47a7a;
+  border: 2px solid #c47a7a;
+  color: white;
+  width: 100%;
+  border-radius: 0rem 2rem 2rem 2rem;
+  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.c-contact__submit:hover {
+  border: 2px solid #372222;
+  color: #372222;
+  background-color: transparent;
+  font-weight: 700;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.c-contactinfo {
+  background-color: #f1f1f1;
+  padding: 3rem 0;
+}
+
+.c-contactinfo__title {
+  text-align: center;
+  width: 100%;
+}
+
+.c-contactinfo__block {
+  margin-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+@media only screen and (min-width: 769px) {
+  .c-contactinfo__block {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: left;
+  }
+}
+
+.c-contactinfo__image {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.c-contactinfo__text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.c-contactinfo__info {
+  display: inline-block;
+}
+
+.c-contactinfo__map {
+  overflow: hidden;
+  position: relative;
+  height: 20rem;
+}
+
+.c-contactinfo__map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .c-copyright {
